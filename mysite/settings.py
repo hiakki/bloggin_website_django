@@ -25,7 +25,10 @@ SECRET_KEY = 'd!e3n_f(d#%-2jc73=s)qr9^j901aha8iw!8r24shsy5m5wx8a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'dev.tricksvibe.tk',
+    'localhost'
+]
 
 
 # Application definition
